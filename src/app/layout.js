@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className="bg-gray-100"
+        className="bg-white text-black dark:bg-gray-900 dark:text-white transition-colors duration-300"
       >
         <Navbar />
           <main >{children}</main>

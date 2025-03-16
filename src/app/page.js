@@ -3,8 +3,8 @@ import Card from "./components/Card";
 
 export default function Home() {
   return (
-   <div className="min-h-screen bg-gray-50">
-      <section className="pt-24 pb-12 text-center bg-gradient-to-br from-blue-600 to-purple-600 text-white">
+   <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+      <section className="pt-24 pb-12 text-center bg-gradient-to-br from-blue-600 to-purple-600 text-white dark:from-blue-800 dark:to-purple-800">
         <div className="max-w-5xl mx-auto px-4">
           <h1 className="text-5xl md:text-6xl font-extrabold mb-4 tracking-tight">
             Bhai ki Guidance

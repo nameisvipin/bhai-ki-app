@@ -8,10 +8,10 @@ export default function StepDetails({params}){
     }
     const currentStep = StepDetails[step]||{title: "Step not found", description: "Bhai ne yeh step nahi banaya hai. Kuch aur try karo!"};
     return(
-        <div className="min-h-screen bg-gray-50">
+        <div className="min-h-screen bg-gray-50 dark:bg-gray-800">
             <section className="pt-24 pb-12 px-4 max-w-5xl mx-auto">
-                <h1 className="text-4xl font-bold text-gray-800 mb-6">{currentStep.title}</h1>
-                <p className="text-lg text-gray-600 leading-relaxed">{currentStep.description}</p>
+                <h1 className="text-4xl font-bold text-gray-800 dark:text-gray-100 mb-6">{currentStep.title}</h1>
+                <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">{currentStep.description}</p>
             </section>
         </div>
     )
