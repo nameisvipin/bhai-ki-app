@@ -23,10 +23,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-12 bg-gray-100">
+      <section className="py-12 bg-gray-100 dark:bg-gray-900">
         <div className="max-w-5xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold text-gray-800 mb-6">Bhai se baat kro</h2>
-          <p className="text-lg text-gray-600 mb-4">Kuch puchna hai? Seedha bhai se baat karo!</p>
+          <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-100 mb-6">Bhai se baat kro</h2>
+          <p className="text-lg text-gray-600  dark:text-gray-300 mb-4">Kuch puchna hai? Seedha bhai se baat karo!</p>
           <button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">Contact bhai</button>
         </div>
       </section>
